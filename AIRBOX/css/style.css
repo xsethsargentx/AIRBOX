@@ -1,0 +1,27 @@
+header {
+    background-color: #262336;
+}
+
+.headerNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* text-decoration: none; */
+    display: flex;
+    color: #68647d;
+    /* text-decoration: none; */
+}
+
+.headerNav a {
+    color: #68647d;
+    text-decoration: none;
+}
+
+.headerNav li {
+    text-decoration: none;
+}
+
+.headerLogo {
+    display: flex;
+    width: 50%;
+}
