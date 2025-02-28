@@ -1,27 +1,149 @@
+.nunito-sans {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+
 header {
     background-color: #262336;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px #2d2a3d;
+}
+
+.logoImg img {
+    width: 70%;
+}   
+
+.topBarNav {
+    margin-right: 10px;
+}
+
+.topBarNav ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.topBarNav ul li {
+    list-style-type: none;
+    margin: 2px;
+}
+
+.topBarNav ul li a {
+    text-decoration: none;
+    color: #5d647d;
+    font-size: medium;
+}
+
+.topBarNav ul li a:hover {
+    color: #ffffff;
+    background-color: #3a3a52;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.secondRowTopText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.secondRow h2 {
+    color: #d1d0d6; 
+    background-image: linear-gradient(180deg, #d1d0d6 38%, #484457 91%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin: 0%;
+}
+
+.secondRow h1 {
+    justify-content: center;
+    color: #ffffff;
+    margin: 0%;
+}
+
+.secondRowBottomText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    color: #5d647d;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.tryNow {
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgb(105,101,126);
+    background: linear-gradient(0deg, rgba(105,101,126,1) 20%, rgba(171,164,201,1) 100%);;
+    border-radius: 15%;
+    border: solid 0px;
+}
+
+.tryNow a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tryNow :hover {
+   color: #5d647d;
+}
+
+
+
+
+
+
+/* header {
+    background-color: #262336;
+}
+
+.headerNav {
+    display: flex;
+    float: right;
 }
 
 .headerNav ul {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    /* text-decoration: none; */
+    align-items: center;
     display: flex;
     color: #68647d;
-    /* text-decoration: none; */
 }
 
 .headerNav a {
+    display: flex;
     color: #68647d;
     text-decoration: none;
+    font-size: small;
 }
 
 .headerNav li {
+    display: flex;
     text-decoration: none;
+    flex-wrap: wrap;
+    flex: 1;
+    
 }
 
 .headerLogo {
     display: flex;
-    width: 50%;
-}
+    width: 20%;
+} */
