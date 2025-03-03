@@ -113,7 +113,6 @@ header {
 
 .thirdRow {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     background-color: #f29b66;
     padding: 20px;
@@ -172,4 +171,18 @@ header {
 .thirdRow p {
     text-align: center;
     margin: .01em;
+}
+
+/* START OF FOURTH ROW */
+
+.fourthRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.miniHosting{
+
 }
