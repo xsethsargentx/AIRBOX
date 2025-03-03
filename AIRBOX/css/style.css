@@ -183,6 +183,13 @@ header {
     text-align: center;
 }
 
-.miniHosting{
+.fourthRow 
 
+.miniHosting h3 h4 { 
+    background-color: #6f6c89;
+
+}
+
+.miniHosting li {
+    list-style-type: none;
 }
