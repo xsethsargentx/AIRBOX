@@ -175,7 +175,7 @@ header {
 
 /* START OF FOURTH ROW */
 
-.fourthRow {
+/* .fourthRow {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -192,4 +192,43 @@ header {
 
 .miniHosting li {
     list-style-type: none;
+} */
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    gap: 10px;
+    background-color: ;
 }
+
+.table th {
+    background-color: #6f6c89;
+}
+
+.table td th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .table th 
+  {
+    color: #d1d0d6; 
+    background-image: linear-gradient(180deg, #d1d0d6 38%, #484457 91%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin: 0%;
+  }
+
+  .fourthRow {
+    background-color: #e8e8ea;
+  }
