@@ -250,14 +250,18 @@ tr:nth-child(even) {
 }
 
 .fifthRow h4 {
-    display: flex;
     color: #d1d0d6; 
     background-image: linear-gradient(180deg, #d1d0d6 38%, #484457 91%); 
     background-clip: text; 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     margin: 0%;
+    display: flex;
     justify-content: center;
+}
+
+.h4Row {
+
 }
 
 .fifthRow ul {
@@ -313,4 +317,14 @@ tr:nth-child(even) {
 
 .moreProducts {
     flex: 1;
+}
+
+.shopNowBox {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin-top: -60px;
+    padding-bottom: 85px;
+    background-color: #262336;
 }
