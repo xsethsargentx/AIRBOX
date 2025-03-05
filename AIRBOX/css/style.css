@@ -175,52 +175,115 @@ header {
 
 /* START OF FOURTH ROW */
 
-/* .fourthRow {
+.fourthRow {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
     padding-bottom: 60px;
     text-align: center;
+    justify-content:space-evenly;
 }
 
-.fourthRow 
+/* .fourthRow h3 {
+    font-size: ;
+} */
 
-.miniHosting h3 h4 { 
+.H {
     background-color: #6f6c89;
-
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px #e2dada;
 }
 
-.miniHosting li {
+.gradient {
+    color: #d1d0d6; 
+    background-image: linear-gradient(180deg, #d1d0d6 38%, #484457 91%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin: 0%;
+}
+
+.noGradient {
+    color: #dcd9d9;
+    
+}
+
+.miniHostingTable {
+    margin: auto;
+}
+
+.miniHostingTable {
+    margin: auto;
+}
+
+.userHostingTable {
+    margin: auto;
+}
+
+.proHostingTable {
+    margin: auto;
+}
+
+.maxiHostingTable {
+    margin: auto;
+}
+
+/* .fourthRow h3 h4 { 
+    background-color: #6f6c89;
+border: 20px;
+} */
+
+/* .fourthRow li {
     list-style-type: none;
 } */
 
 
-
-
-
-/* .table {
+.table {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: space-evenly; */
     padding: 20px;
     padding-bottom: 60px;
     text-align: center;
-    gap: 10px;
-    background-color: ;
+    /* gap: 80px; */
+}
+
+tr {
+    color: #b3b3b3;
+    /* font-size: x-small; */
 }
 
 .table th {
     background-color: #6f6c89;
+    margin: 10px;
+
 }
 
 .table td th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    color: #b5b6bf;
+}
+
+/* td {
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+.miniHostingTable p {
+    font-size: x-small;
 }
 
 tr:nth-child(even) {
     background-color: #dddddd;
+  }
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
   }
 
   .table th 
@@ -235,7 +298,37 @@ tr:nth-child(even) {
 
   .fourthRow {
     background-color: #e8e8ea;
-  } */
+  }
+
+
+
+
+
+
+  .signUp {
+    display: flex;
+    flex-direction: row;
+    background: rgb(228,88,45);
+    background: linear-gradient(0deg, rgba(228,88,45,1) 20%, rgba(243,145,89,1) 100%);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 0px;
+    border-radius: 7%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .signUp a {
+    text-decoration: none;
+    color: #fffff4;
+  }
+
+/* table {
+    font-size: small;
+} */
+
 
 /* START OF FIFTH ROW */
 
@@ -257,20 +350,20 @@ tr:nth-child(even) {
     -webkit-text-fill-color: transparent;
     margin: 0%;
     display: flex;
-    justify-content: center;
-}
-
-.h4Row {
-
+    /* justify-content: center; */
+    justify-content: flex-start;
+    margin-left: 45px;
 }
 
 .fifthRow ul {
-
+    margin-left: 40px;
 }
 
 .fifthRow li {
     color: #fffff2;
     justify-content: center;
+    /* text-align: center; */
+
 }
 
 .fifthRow li::marker {
@@ -325,6 +418,63 @@ tr:nth-child(even) {
     /* justify-content: space-around; */
     /* align-items: center; */
     margin-top: -60px;
-    padding-bottom: 85px;
+    padding-bottom: 75px;
     background-color: #262336;
+}
+
+/* START OF SUB-LOGOS */
+
+.subLogos img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* START OF FOOTER */
+
+footer {
+    background-color: #1a1921;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.footerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerLeft img {
+    /* display: flex; */
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.footerText {
+    /* display: flex; */
+    color: #444153;
+    /* float: left; */
+    font-size: smaller;
+    text-align: center;
+    margin-left: -150px;
+}
+
+.footerRight {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.footerRight img {
+    display: flex;
+    width: 50%;
+    height: auto;
+    float: right;
 }
